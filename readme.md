@@ -19,7 +19,7 @@ Clone the repository
 
 ```sh
 $ git clone https://github.com/rachhek/imagescraper.git
-$ cd imgscraper
+$ cd imagescraper
 ```
 
 Create a virtual environment and install the dependencies
@@ -32,13 +32,13 @@ $ (imagescraper) pipenv install
 Once the pipenv has finished installing, run migrations for django.
 
 ```sh
-$ (imgscraper_django) python manage.py migrate
+$ (imagescraper) python manage.py migrate
 ```
 
 Run the server
 
 ```sh
-$ (imgscraper_django) python manage.py runserver
+$ (imagescraper) python manage.py runserver
 ```
 
 Open the application in http://127.0.0.1:8000/
@@ -57,10 +57,15 @@ The Urls and images can be downloaded
 The physical location of the images and txt file of URLs is
 
 ```
-<path_to_project>/imgscraper/media/
+<path_to_project>/imagescraper/media/
 ```
 
 ![alt Screenshot 3](screenshots/screenshot3.jpg)
+
+## Code
+
+The library for image scraping is located in scraper_app/lib.py
+The template for the gallery is located in scraper_app/templates/scraper_app/scraper/index.html
 
 ## Limitations
 
