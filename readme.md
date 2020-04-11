@@ -15,24 +15,23 @@ Check Pipfile for details
 
 ## Setup
 
-Clone the repositor
+Clone the repository
 
 ```sh
-$ git clone https://github.com/rachhek/imgscraper.git
-$ cd imgscraper_django
+$ git clone https://github.com/rachhek/imagescraper.git
+$ cd imgscraper
 ```
 
 Create a virtual environment and install the dependencies
 
 ```sh
 $ pipenv shell
-$ (imgscraper_django) pipenv install
+$ (imagescraper) pipenv install
 ```
 
-Once the pipenv has finished installing run migrations for django
+Once the pipenv has finished installing, run migrations for django.
 
 ```sh
-$ (imgscraper_django) cd imgscraper
 $ (imgscraper_django) python manage.py migrate
 ```
 
