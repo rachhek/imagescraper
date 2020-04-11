@@ -64,8 +64,17 @@ The physical location of the images and txt file of URLs is
 
 ## Code
 
-The library for image scraping is located in scraper_app/lib.py
-The template for the gallery is located in scraper_app/templates/scraper_app/scraper/index.html
+### Scraper Tool
+
+```
+scraper_app/lib.py
+```
+
+### Gallery
+
+```
+scraper_app/templates/scraper_app/scraper/index.html
+```
 
 ## Limitations
 
