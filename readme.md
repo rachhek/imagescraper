@@ -79,7 +79,7 @@ scraper_app/templates/scraper_app/scraper/index.html
 ## Limitations
 
 - Cannot download images that are in the form of base64
-- Only scrapes "img" tag
+- Only scrapes "img" tag and "background-url" style tags
 - does not automatically scroll pages
 - might not properly scrape images for a highly dynamic websites
 
